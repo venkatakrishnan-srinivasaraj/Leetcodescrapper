@@ -5,12 +5,8 @@ import org.springframework.stereotype.Service;
 import com.venkatakrishnan.leetcodescrapper.model.User;
 
 @Service
-public interface UserService {
+public interface LeetcodeScrapperService {
 
-  public void saveUser(User user);
-  
-  public User getUser(int userId);
-  
-  public User getUser(String username);
+  public void scrapLatestData(User user);
   
 }

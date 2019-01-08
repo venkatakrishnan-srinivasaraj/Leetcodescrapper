@@ -8,5 +8,9 @@ import com.venkatakrishnan.leetcodescrapper.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+  
+  public User getUserById(int id);
+  
+  public User getUserByUsername(String userName);
 
 }
