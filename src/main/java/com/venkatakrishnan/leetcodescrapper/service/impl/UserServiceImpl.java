@@ -1,11 +1,11 @@
-package com.venkatakrishnan.leetcodescrapper.model.service.impl;
+package com.venkatakrishnan.leetcodescrapper.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.venkatakrishnan.leetcodescrapper.model.User;
-import com.venkatakrishnan.leetcodescrapper.model.service.UserService;
 import com.venkatakrishnan.leetcodescrapper.repository.UserRepository;
+import com.venkatakrishnan.leetcodescrapper.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

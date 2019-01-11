@@ -7,8 +7,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 @Entity
 @Table(name = "difficulty_level")
+@Getter
+@Setter
+@ToString
 public class DifficultyLevel {
   
   public DifficultyLevel() {

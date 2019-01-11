@@ -8,5 +8,6 @@ import com.venkatakrishnan.leetcodescrapper.model.Problem;
 
 @Repository
 public interface ProblemRepository extends JpaRepository<Problem, Long> {
+  public Problem getProblemById(int id);
 
 }

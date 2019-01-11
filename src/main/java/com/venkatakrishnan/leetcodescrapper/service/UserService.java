@@ -1,4 +1,4 @@
-package com.venkatakrishnan.leetcodescrapper.model.service;
+package com.venkatakrishnan.leetcodescrapper.service;
 
 import org.springframework.stereotype.Service;
 

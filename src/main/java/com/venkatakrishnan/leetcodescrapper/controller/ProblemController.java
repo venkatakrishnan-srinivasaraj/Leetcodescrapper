@@ -1,4 +1,4 @@
-package com.venkatakrishnan.leetcodescrapper.model.controller;
+package com.venkatakrishnan.leetcodescrapper.controller;
 
 import javax.validation.Valid;
 
