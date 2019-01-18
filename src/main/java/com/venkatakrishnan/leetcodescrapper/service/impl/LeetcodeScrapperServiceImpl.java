@@ -27,8 +27,8 @@ import com.venkatakrishnan.leetcodescrapper.service.UserProblemMapService;
 @Service
 public class LeetcodeScrapperServiceImpl implements LeetcodeScrapperService {
 
-  @Autowired
-  @Qualifier("firefox")
+//  @Autowired
+//  @Qualifier("firefox")
   private WebDriver webDriver;
 
   @Autowired

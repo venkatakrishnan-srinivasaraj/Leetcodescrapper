@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class LeetcodescrapperApplication {
 
-  @Bean("firefox")
-  public WebDriver webDriverForFirefox() {
-    WebDriver firefoxWebDriver = new FirefoxDriver();
-    firefoxWebDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    return firefoxWebDriver;
-  }
+//  @Bean("firefox")
+//  public WebDriver webDriverForFirefox() {
+//    WebDriver firefoxWebDriver = new FirefoxDriver();
+//    firefoxWebDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//    return firefoxWebDriver;
+//  }
 
   // @Bean("chrome")
   // public WebDriver webDriverForChrome() {

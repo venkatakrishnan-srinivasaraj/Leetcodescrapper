@@ -27,7 +27,7 @@ public class ScrapLatestUpdateController {
   @Autowired
   UserProblemMapService userProblemMapService;
   
-  @Autowired
+//  @Autowired
   private LeetcodeScrapperService leetcodeScrapperService;
 
   @RequestMapping(value = "/scrap/user/{userId}")
